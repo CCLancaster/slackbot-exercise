@@ -7,7 +7,15 @@ module.exports.botScripts = [
   // mychatbot> I'm tired
   // mychatbot responds "Wake up!"
   
-
+{
+  label: 'Tired',
+  prompt: 'I am tired',
+  handler: function () {
+    return 'Wake up!';
+  },
+  isCaseSensitive: false,
+  isListening: true,
+},
 
 
 
@@ -17,7 +25,9 @@ module.exports.botScripts = [
   // 
   // mychatbot> mychatbot What's the area of a circle with radius 5?
   // mychatbot responds to user "The area is 78.5398...."
-  
+  {
+    
+  }
 
 
 
